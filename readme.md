@@ -21,3 +21,16 @@ Task: Write a C program to create a child process using fork(), and in the paren
 6. Multithreading Using Pthread Library:
 
 Task: Write a C program that creates two threads using pthread_create(), where each thread prints its ID and a message.
+
+
+```
+| Library       | Purpose                                 | Key Functions                        |
+| ------------- | --------------------------------------- | ------------------------------------ |
+| `<stdio.h>`   | Input/Output functions                  | `printf()`, `scanf()`, `fopen()`     |
+| `<unistd.h>`  | Unix system calls                       | `fork()`, `exec()`, `getpid()`       |
+| `<fcntl.h>`   | File control (open, read, write)        | `open()`, `close()`, `lseek()`       |
+| `<stdlib.h>`  | Memory management and utility functions | `malloc()`, `free()`, `exit()`       |
+| `<pthread.h>` | Threading library (for POSIX threads)   | `pthread_create()`, `pthread_join()` |
+| `<errno.h>`   | Error handling                          | `errno`, `perror()`, `strerror()`    |
+
+```
